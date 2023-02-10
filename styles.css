@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition: all 0.5s ease; */
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  /* font-family: "Lora", serif; */
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* main styles */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 6em;
+  background-color: #171717;
+}
+
+.headerLogo h1 {
+  font-size: 20px;
+  font-weight: 900 !important;
+  cursor: pointer;
+  color: white;
+  font-style: italic;
+}
+
+.headerNavLink {
+}
+
+.headerNavLink ul {
+  display: flex;
+  gap: 2em;
+}
+
+.headerNavLink ul li {
+  cursor: pointer;
+  color: gray;
+}
+
+#specialnav {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1px;
+  color: white;
+}
+
+#headerSup {
+  background-color: red;
+  height: 3px;
+  width: 5px;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.headerCartSearch ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+#specialCart {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1px;
+}
+
+#headerSupp {
+  background-color: red;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 10px;
+  height: 18px;
+  width: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.headerDivider {
+  width: 2px;
+  background-color: #ccc;
+  border-radius: 4px;
+  height: 30px;
+}
+
+.headerCartSearch span {
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+/* hero */
+
+.hero {
+  padding: 20px 6em;
+  background-color: #171717;
+}
+
+.heroLabel {
+  display: flex;
+  gap: 1em;
+  font-size: 4em;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 30px;
+  align-items: center;
+  color: #fff;
+}
+
+#heroLabelSpecial {
+  background-color: red;
+  color: white;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 6px;
+}
+
+.heroText {
+  color: rgb(129, 128, 128);
+  text-align: center;
+  margin-top: 1em;
+}
+
+.heroImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 3em;
+}
+
+.heroMainImage img {
+  border-radius: 20px;
+  height: 600px;
+  width: 100%;
+}
+
+.heroImageStats {
+  margin-top: 18px;
+}
+.heroImageStats span {
+  color: #fff;
+}
+
+.heroImageStats p {
+  color: rgb(129, 128, 128);
+  margin-top: 80px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  padding: 20px 6em;
+  background-color: #171717;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLeft {
+  flex: 0.5;
+}
+
+.footerLeft h2 {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.footerExplore {
+  background-color: red;
+  color: #fff;
+  margin-top: 2em;
+  width: 50%;
+  padding: 15px 24px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.footerRight {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.footerRightOne {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  flex: 0.5;
+  margin-top: 1.5em;
+}
+
+.rightOneItemOne {
+  background-color: red;
+  color: #fff;
+  padding: 1em 1.3em;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.rightOneItemOne h1 {
+  margin-bottom: 1em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.rightOneItemTwo {
+  color: #fff;
+  padding: 1em 1.3em;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.rightOneItemTwo h1 {
+  margin-bottom: 1em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.footerRightTwo {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.footerRightTwo h1 {
+  margin-bottom: 1em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.rightTwoItemOne {
+  color: #fff;
+  padding: 1em 1.3em;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.rightTwoItemTwo {
+  color: #fff;
+  padding: 1em 1.3em;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
