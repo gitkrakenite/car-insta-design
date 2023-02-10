@@ -160,6 +160,7 @@ body {
 /* footer */
 .footer {
   display: flex;
+  flex-wrap: wrap;
   padding: 20px 6em;
   background-color: #171717;
   justify-content: space-between;
@@ -259,4 +260,47 @@ body {
   text-align: center;
   border-radius: 8px;
   border: 1px solid #ccc;
+}
+
+@media (max-width: 700px) {
+  .headerNavLink {
+    display: none;
+  }
+  .hero {
+    padding: 20px 10px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #171717;
+  }
+
+  .heroLabel {
+    font-size: 1em;
+    padding: 10px 20px;
+    align-items: center;
+    color: #fff;
+  }
+
+  .heroMainImage img {
+    border-radius: 20px;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .footer {
+    padding: 20px 20px;
+    display: block;
+  }
+
+  .footerLeft {
+    margin-bottom: 1em;
+  }
+
+  .footerRight {
+    display: block;
+  }
 }
